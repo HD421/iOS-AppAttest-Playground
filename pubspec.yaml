@@ -1,0 +1,23 @@
+name: device_check
+description: Flutter plugin for accessing the Apple's AppAttest API. (Based on https://github.com/okadan/flutter-ios-device-check)
+version: 0.1.0+2
+homepage: https://github.com/HD421/iOS-AppAttest-Playground
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  cbor: ^4.0.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: DeviceCheckPlugin
